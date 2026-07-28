@@ -39,7 +39,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98 # v4.0.0
       - name: Setup Golang
-        uses: actions/setup-go@c0137caad775660c0844396c52da96e560aba63d # v5.0.2
+        uses: actions/setup-go@5064d95ba18d4a9dda7c4cc67adeb03aea1a2a14 # v5.0.2
         with:
           go-version: ${{ env.GOLANG_VERSION }}
       - name: Download all Go modules
@@ -63,7 +63,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98 # v4.0.0
       - name: Setup Golang
-        uses: actions/setup-go@c0137caad775660c0844396c52da96e560aba63d # v5.0.2
+        uses: actions/setup-go@5064d95ba18d4a9dda7c4cc67adeb03aea1a2a14 # v5.0.2
         with:
           go-version: ${{ env.GOLANG_VERSION }}
       - name: Run golangci-lint
@@ -81,7 +81,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6.0.2
       - name: Setup Golang
-        uses: actions/setup-go@c0137caad775660c0844396c52da96e560aba63d # v5.0.2
+        uses: actions/setup-go@5064d95ba18d4a9dda7c4cc67adeb03aea1a2a14 # v5.0.2
         with:
           go-version: ${{ env.GOLANG_VERSION }}
       - name: Integration tests
